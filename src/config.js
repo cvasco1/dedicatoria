@@ -1,0 +1,425 @@
+// ╔══════════════════════════════════════════╗
+// ║  💕  EDITA AQUÍ — src/config.js          ║
+// ╚══════════════════════════════════════════╝
+
+export const config = {
+  yourName:    'Gabriela',
+  partnerName: 'Cristian',
+
+  // Fecha de inicio de la relación
+  startDate: new Date(2023, 6, 12, 7, 0), // 12 Jul 2023, 7:00 AM
+
+  heroTagline: 'Desde el primer instante en que te vi,\nsupe que eras mi historia favorita.',
+
+  // ── FOTOS DE PORTADA (galería principal) ──────────────
+  // src: URL externa O ruta local '/photos/foto.jpg'
+  // La app también te permite subir desde tu computadora (se guardan con IndexedDB).
+  photos: [
+    { src:'/photos/1.jpg', caption:'Nuestra primera cita 🥂', rotate:'-2deg' },
+    { src:'/photos/2.jpg', caption:'Ese viaje que cambió todo ✈️', rotate:'1.5deg' },
+    { src:'/photos/3.jpg', caption:'Riendo sin parar 😂', rotate:'-1deg' },
+    { src:'/photos/4.jpg', caption:'El atardecer más bonito 🌅', rotate:'2deg' },
+    { src:'/photos/5.jpg', caption:'Nuestra mesa favorita 🕯️', rotate:'-1.5deg' },
+    { src:'/photos/6.jpg', caption:'Para siempre juntos 💍', rotate:'1deg' },
+  ],
+
+  album: [
+    {src: '/album/001.jpg', caption: 'Recuerdo 1 ❤️',},
+    {src: '/album/002.jpg', caption: 'Recuerdo 2 ❤️',},
+    {src: '/album/003.jpg', caption: 'Recuerdo 3 ❤️',},
+    {src: '/album/004.jpg', caption: 'Recuerdo 4 ❤️',},
+    {src: '/album/005.jpg', caption: 'Recuerdo 5 ❤️',},
+    {src: '/album/006.jpg', caption: 'Recuerdo 6 ❤️',},
+    {src: '/album/007.jpg', caption: 'Recuerdo 7 ❤️',},
+    {src: '/album/008.jpg', caption: 'Recuerdo 8 ❤️',},
+    {src: '/album/009.jpg', caption: 'Recuerdo 9 ❤️',},
+    {src: '/album/010.jpg', caption: 'Recuerdo 10 ❤️',},
+    {src: '/album/011.jpg', caption: 'Recuerdo 11 ❤️',},
+    {src: '/album/012.jpg', caption: 'Recuerdo 12 ❤️',},
+    {src: '/album/013.jpg', caption: 'Recuerdo 13 ❤️',},
+    {src: '/album/014.jpg', caption: 'Recuerdo 14 ❤️',},
+    {src: '/album/015.jpg', caption: 'Recuerdo 15 ❤️',},
+    {src: '/album/016.jpg', caption: 'Recuerdo 16 ❤️',},
+    {src: '/album/017.jpg', caption: 'Recuerdo 17 ❤️',},
+    {src: '/album/018.jpg', caption: 'Recuerdo 18 ❤️',},
+    {src: '/album/019.jpg', caption: 'Recuerdo 19 ❤️',},
+    {src: '/album/020.jpg', caption: 'Recuerdo 20 ❤️',},
+    {src: '/album/021.jpg', caption: 'Recuerdo 21 ❤️',},
+    {src: '/album/022.jpg', caption: 'Recuerdo 22 ❤️',},
+    {src: '/album/023.jpg', caption: 'Recuerdo 23 ❤️',},
+    {src: '/album/024.jpg', caption: 'Recuerdo 24 ❤️',},
+    {src: '/album/025.jpg', caption: 'Recuerdo 25 ❤️',},
+    {src: '/album/026.jpg', caption: 'Recuerdo 26 ❤️',},
+    {src: '/album/027.jpg', caption: 'Recuerdo 27 ❤️',},
+    {src: '/album/028.jpg', caption: 'Recuerdo 28 ❤️',},
+    {src: '/album/029.jpg', caption: 'Recuerdo 29 ❤️',},
+    {src: '/album/030.jpg', caption: 'Recuerdo 30 ❤️',}, 
+    {src: '/album/031.jpg', caption: 'Recuerdo 31 ❤️',},
+    {src: '/album/032.jpg', caption: 'Recuerdo 32 ❤️',},
+    {src: '/album/033.jpg', caption: 'Recuerdo 33 ❤️',},
+    {src: '/album/034.jpg', caption: 'Recuerdo 34 ❤️',},
+    {src: '/album/035.jpg', caption: 'Recuerdo 35 ❤️',},
+    {src: '/album/036.jpg', caption: 'Recuerdo 36 ❤️',},
+    {src: '/album/037.jpg', caption: 'Recuerdo 37 ❤️',},
+    {src: '/album/038.jpg', caption: 'Recuerdo 38 ❤️',},
+    {src: '/album/039.jpg', caption: 'Recuerdo 39 ❤️',},
+    {src: '/album/040.jpg', caption: 'Recuerdo 40 ❤️',},
+    {src: '/album/041.jpg', caption: 'Recuerdo 41 ❤️',},
+    {src: '/album/042.jpg', caption: 'Recuerdo 42 ❤️',},
+    {src: '/album/043.jpg', caption: 'Recuerdo 43 ❤️',},
+    {src: '/album/044.jpg', caption: 'Recuerdo 44 ❤️',},
+    {src: '/album/045.jpg', caption: 'Recuerdo 45 ❤️',},
+    {src: '/album/046.jpg', caption: 'Recuerdo 46 ❤️',},
+    {src: '/album/047.jpg', caption: 'Recuerdo 47 ❤️',},
+    {src: '/album/048.jpg', caption: 'Recuerdo 48 ❤️',},
+    {src: '/album/049.jpg', caption: 'Recuerdo 49 ❤️',},
+    {src: '/album/050.jpg', caption: 'Recuerdo 50 ❤️',},
+    {src: '/album/051.jpg', caption: 'Recuerdo 51 ❤️',},
+    {src: '/album/052.jpg', caption: 'Recuerdo 52 ❤️',},
+    {src: '/album/053.jpg', caption: 'Recuerdo 53 ❤️',},
+    {src: '/album/054.jpg', caption: 'Recuerdo 54 ❤️',},
+    {src: '/album/055.jpg', caption: 'Recuerdo 55 ❤️',},
+    {src: '/album/056.jpg', caption: 'Recuerdo 56 ❤️',},
+    {src: '/album/057.jpg', caption: 'Recuerdo 57 ❤️',},
+    {src: '/album/058.jpg', caption: 'Recuerdo 58 ❤️',},
+    {src: '/album/059.jpg', caption: 'Recuerdo 59 ❤️',},
+    {src: '/album/060.jpg', caption: 'Recuerdo 60 ❤️',},
+    {src: '/album/061.jpg', caption: 'Recuerdo 61 ❤️',},
+    {src: '/album/062.jpg', caption: 'Recuerdo 62 ❤️',},
+    {src: '/album/063.jpg', caption: 'Recuerdo 63 ❤️',},
+    {src: '/album/064.jpg', caption: 'Recuerdo 64 ❤️',},
+    {src: '/album/065.jpg', caption: 'Recuerdo 65 ❤️',},
+    {src: '/album/066.jpg', caption: 'Recuerdo 66 ❤️',},
+    {src: '/album/067.jpg', caption: 'Recuerdo 67 ❤️',},
+    {src: '/album/068.jpg', caption: 'Recuerdo 68 ❤️',},
+    {src: '/album/069.jpg', caption: 'Recuerdo 69 ❤️',},
+    {src: '/album/070.jpg', caption: 'Recuerdo 70 ❤️',},
+    {src: '/album/071.jpg', caption: 'Recuerdo 71 ❤️',},
+    {src: '/album/072.jpg', caption: 'Recuerdo 72 ❤️',},
+    {src: '/album/073.jpg', caption: 'Recuerdo 73 ❤️',},
+    {src: '/album/074.jpg', caption: 'Recuerdo 74 ❤️',},
+    {src: '/album/075.jpg', caption: 'Recuerdo 75 ❤️',},
+    {src: '/album/076.jpg', caption: 'Recuerdo 76 ❤️',},
+    {src: '/album/077.jpg', caption: 'Recuerdo 77 ❤️',},
+    {src: '/album/078.jpg', caption: 'Recuerdo 78 ❤️',},
+    {src: '/album/079.jpg', caption: 'Recuerdo 79 ❤️',},
+    {src: '/album/080.jpg', caption: 'Recuerdo 80 ❤️',},
+    {src: '/album/081.jpg', caption: 'Recuerdo 81 ❤️',},
+    {src: '/album/082.jpg', caption: 'Recuerdo 82 ❤️',},
+    {src: '/album/083.jpg', caption: 'Recuerdo 83 ❤️',},
+    {src: '/album/084.jpg', caption: 'Recuerdo 84 ❤️',},
+    {src: '/album/085.jpg', caption: 'Recuerdo 85 ❤️',},
+    {src: '/album/086.jpg', caption: 'Recuerdo 86 ❤️',},
+    {src: '/album/087.jpg', caption: 'Recuerdo 87 ❤️',},
+    {src: '/album/088.jpg', caption: 'Recuerdo 88 ❤️',},
+    {src: '/album/089.jpg', caption: 'Recuerdo 89 ❤️',},
+    {src: '/album/090.jpg', caption: 'Recuerdo 90 ❤️',},
+    {src: '/album/091.jpg', caption: 'Recuerdo 91 ❤️',},
+    {src: '/album/092.jpg', caption: 'Recuerdo 92 ❤️',},
+    {src: '/album/093.jpg', caption: 'Recuerdo 93 ❤️',},
+    {src: '/album/094.jpg', caption: 'Recuerdo 94 ❤️',},
+    {src: '/album/095.jpg', caption: 'Recuerdo 95 ❤️',},
+    {src: '/album/096.jpg', caption: 'Recuerdo 96 ❤️',},
+    {src: '/album/097.jpg', caption: 'Recuerdo 97 ❤️',},
+    {src: '/album/098.jpg', caption: 'Recuerdo 98 ❤️',},
+    {src: '/album/099.jpg', caption: 'Recuerdo 99 ❤️',},
+    {src: '/album/100.jpg', caption: 'Recuerdo 100 ❤️',},
+    {src: '/album/101.jpg', caption: 'Recuerdo 101 ❤️',},
+    {src: '/album/102.jpg', caption: 'Recuerdo 102 ❤️',},
+    {src: '/album/103.jpg', caption: 'Recuerdo 103 ❤️',},
+    {src: '/album/104.jpg', caption: 'Recuerdo 104 ❤️',},
+    {src: '/album/105.jpg', caption: 'Recuerdo 105 ❤️',},
+    {src: '/album/106.jpg', caption: 'Recuerdo 106 ❤️',},
+    {src: '/album/107.jpg', caption: 'Recuerdo 107 ❤️',},
+    {src: '/album/108.jpg', caption: 'Recuerdo 108 ❤️',},
+    {src: '/album/109.jpg', caption: 'Recuerdo 109 ❤️',},
+    {src: '/album/110.jpg', caption: 'Recuerdo 110 ❤️',},
+    {src: '/album/111.jpg', caption: 'Recuerdo 111 ❤️',},
+    {src: '/album/112.jpg', caption: 'Recuerdo 112 ❤️',},
+    {src: '/album/113.jpg', caption: 'Recuerdo 113 ❤️',},
+    {src: '/album/114.jpg', caption: 'Recuerdo 114 ❤️',},
+    {src: '/album/115.jpg', caption: 'Recuerdo 115 ❤️',},
+    {src: '/album/116.jpg', caption: 'Recuerdo 116 ❤️',},
+    {src: '/album/117.jpg', caption: 'Recuerdo 117 ❤️',},
+    {src: '/album/118.jpg', caption: 'Recuerdo 118 ❤️',},
+    {src: '/album/119.jpg', caption: 'Recuerdo 119 ❤️',},
+    {src: '/album/120.jpg', caption: 'Recuerdo 120 ❤️',},
+    {src: '/album/121.jpg', caption: 'Recuerdo 121 ❤️',},
+    {src: '/album/122.jpg', caption: 'Recuerdo 122 ❤️',},
+    {src: '/album/123.jpg', caption: 'Recuerdo 123 ❤️',},
+    {src: '/album/124.jpg', caption: 'Recuerdo 124 ❤️',},
+    {src: '/album/125.jpg', caption: 'Recuerdo 125 ❤️',},
+    {src: '/album/126.jpg', caption: 'Recuerdo 126 ❤️',},
+    {src: '/album/127.jpg', caption: 'Recuerdo 127 ❤️',},
+    {src: '/album/128.jpg', caption: 'Recuerdo 128 ❤️',},
+    {src: '/album/129.jpg', caption: 'Recuerdo 129 ❤️',},
+    {src: '/album/130.jpg', caption: 'Recuerdo 130 ❤️',},
+    {src: '/album/131.jpg', caption: 'Recuerdo 131 ❤️',},
+    {src: '/album/132.jpg', caption: 'Recuerdo 132 ❤️',},
+    {src: '/album/133.jpg', caption: 'Recuerdo 133 ❤️',},
+    {src: '/album/134.jpg', caption: 'Recuerdo 134 ❤️',},
+    {src: '/album/135.jpg', caption: 'Recuerdo 135 ❤️',},
+    {src: '/album/136.jpg', caption: 'Recuerdo 136 ❤️',},
+    {src: '/album/137.jpg', caption: 'Recuerdo 137 ❤️',},
+    {src: '/album/138.jpg', caption: 'Recuerdo 138 ❤️',},
+    {src: '/album/139.jpg', caption: 'Recuerdo 139 ❤️',},
+    {src: '/album/140.jpg', caption: 'Recuerdo 140 ❤️',},
+  ],
+
+  // ── VIDEOS ────────────────────────────────────────────
+  // La app permite subir videos locales (se guardan con IndexedDB).
+  videos: [
+    {title: 'Nuestra primera aventura', src: '/videos/1.mp4', emoji: '🥰'},
+    {title: 'Que haya besitos siempre', src: '/videos/2.mp4', emoji: '😘'},
+    {title: 'Amo viajar a tu lado', src: '/videos/3.mp4', emoji: '🚗'},
+    {title: 'Risas que no se acaban', src: '/videos/4.mp4', emoji: '😂'},
+    {title: 'Momentos que son magia', src: '/videos/5.mp4', emoji: '✨'},
+    {title: 'Nuestros abrazos que llenan el alma', src: '/videos/6.mp4', emoji: '🤗'},
+    {title: 'Días especiales juntos', src: '/videos/7.mp4', emoji: '❤️'},
+    {title: 'Pequeños momentos que amo', src: '/videos/8.mp4', emoji: '🌸'},
+
+  ],
+  // ── LÍNEA DE TIEMPO ────────────────────────────────────
+timeline: [
+    // ───────────────────────────── 2023 ─────────────────────────────
+    { date:'Enero 2023',      title:'El inicio sin saberlo', 
+      desc:'Sin darnos cuenta, la vida ya estaba acomodando todo para que nos encontráramos. Algo estaba por empezar.', 
+      emoji:'🌙', side:'left', photo:'/timeline/1.jpg' },
+    { date:'Febrero 2023',      title:'Primer San Valentín', 
+      desc:'Nuestros primeros festejos juntos, los primeros girasoles para mi princesa.', 
+      emoji:'🌻', side:'right' , photo:'/timeline/2.jpg' },
+
+    { date:'Abril 2023',      title:'Tu cumpleaños 🎂 (inicio de tradición)', 
+      desc:'Aunque recién empezábamos, ese día ya significaba mucho. Tu sonrisa fue suficiente para iluminar todo.', 
+      emoji:'🎂', side:'left', video:{ url:'/timeline/2.mp4'} },
+
+    { date:'Mayo 2023',       title:'Mi cumpleaños 💕 (primer deseo contigo)', 
+      desc:'El primer cumpleaños contigo… y sin saberlo, pedí el mejor deseo de todos: que te quedes.', 
+      emoji:'💝', side:'right', photo:'/timeline/3.jpg' },
+
+    { date:'Julio 2023',      title:'El día que me dijiste que sí', 
+      desc:'Una mirada, una sonrisa tímida y el mundo dejó de girar igual. Ese momento cambió todo.', 
+      emoji:'💫', side:'left',  video:{ url:'/timeline/4.mp4'}},
+
+    { date:'Agosto 2023',     title:'Primeras salidas y comidas juntos', 
+      desc:'Primeras hamburguesas juntos mientras las horas pasan volando. Hablamos tanto que olvidamos el mundo.', 
+      emoji:'☕', side:'right', photo:'/timeline/5.jpg', video:{ url:'/timeline/5.mp4'} },
+
+    { date:'Septiembre 2023', title:'Nuestro primer "nosotros"', 
+      desc:'De dos historias separadas a una sola. Sin darnos cuenta, ya éramos un equipo y uno más 🐶.', 
+      emoji:'💑', side:'left', photos:['/timeline/6.jpg', '/timeline/6.1.jpg'] },
+
+    { date:'Octubre 2023',    title:'Las dos palabras', 
+      desc:'Esos "te amo" que cambió la forma en la que nos mirábamos, y todos los detalles antes de cada juego.', 
+      emoji:'⚽', side:'right', photos:['/timeline/7.jpg', '/timeline/7.1.jpg'] },
+
+    { date:'Noviembre 2023',  title:'Primera colada morada juntos', 
+      desc:'Amamos la coladita morada con las guaguas de pan de manjar,siempre risas y la sensación de que ya pertenecías ahí desde siempre.🥖', 
+      emoji:'🏠', side:'left', photo:'/timeline/8.jpg', video:{ url:'/timeline/8.mp4'} },
+
+    { date:'Diciembre 2023',  title:'Primera Navidad juntos 🎄', 
+      desc:'Nuestra primera Navidad juntos y la primera vez sintiendo que esto era hogar.', 
+      emoji:'🎄', side:'right',  photo:'/timeline/9.jpg' },
+
+
+    // ───────────────────────────── 2024 ─────────────────────────────
+    { date:'Enero 2024',    title:'Nuestros pastelitos y dandonos cuenta que esto era real', 
+      desc:'Cada vez que compartíamos algo tan simple como un pastelito, sentíamos que esto era más que una relación… era algo real, algo nuestro.', 
+      emoji:'🍰', side:'left', video:{ url:'/timeline/10.mp4'}  },
+
+    { date:'Febrero 2024',    title:'San Valentín — Segundo año juntos', 
+      desc:'Nuestra salidita al parque, el vino, los girasoles y la sensación de que cada año juntos es mejor que el anterior.', 
+      emoji:'🌹', side:'right', photo:'/timeline/11.jpg', video:{ url:'/timeline/11.mp4'} },
+
+    { date:'Marzo 2024',    title:'Comiditas juntos y nuestras fotos espontáneas llenas de amor', 
+      desc:'Cada comida juntos se volvió una pequeña celebración. Esos momentos simples se convirtieron en recuerdos preciosos, y nuestras fotos espontáneas capturaron la esencia de nuestro amor.', 
+      emoji:'🍦', side:'left',photo:'/timeline/12.jpg', video:{ url:'/timeline/12.mp4'}  },
+
+    { date:'Abril 2024',      title:'Tu cumpleaños 🎂', 
+      desc:'Ya no eras solo alguien especial… eras mi persona favorita.', 
+      emoji:'🎂', side:'right',photo:'/timeline/13.jpg', video:{ url:'/timeline/13.mp4'} },
+
+    { date:'Mayo 2024',       title:'Mi cumpleaños 💕', 
+      desc:'Un cumpleaños contigo vale más que cualquier regalo. Tú ya eras el regalo.', 
+      emoji:'💝', side:'left', photo:'/timeline/14.jpg', video:{ url:'/timeline/14.mp4'} },
+
+    { date:'Junio 2024',      title:'Primer aniversario (Adelantado un mes) ✨', 
+      desc:'Nuestro primer aniversario juntos, un año de historias, de risas, de complicidad y de amor que crece cada día. Que le adelante un mes 😜', 
+      emoji:'✨', side:'right', photo:'/timeline/15.jpg', video:{ url:'/timeline/15.mp4'}  },
+
+    { date:'Junio casi Julio 2024',     title:'Nuestro viaje a papallacta 🚗', 
+      desc:'Un viaje que nos llevó a descubrir no solo nuevos lugares, sino también nuevas formas de amarnos y apoyarnos. Entre risas, paisajes increíbles y momentos de tranquilidad, ese viaje se convirtió en uno de nuestros recuerdos más preciados.', 
+      emoji:'🚗', side:'left', photo:'/timeline/16.jpg', video:{ url:'/timeline/16.mp4'}  },
+
+    { date:'Noviembre 2024',    title:'Segunda colada morada juntos', 
+      desc:'Ah pasado un año y seguimos compartiendo nuestras tradiciones, nuestras risas y nuestro amor. La colada morada se volvió aún más especial porque la compartimos juntos.', 
+      emoji:'🌧️', side:'right', photos:['/timeline/17.jpg', '/timeline/17.1.jpg', '/timeline/17.2.jpg'] },
+
+    { date:'Diciembre 2024',  title:'Segunda Navidad y Fin de año⭐', 
+      desc:'Nuestros días juntos… ya no eran ilusión… eran tradición, era hogar, eras tú. Y siempre quiero que sigas siendo tu.', 
+      emoji:'⭐', side:'left', photos:['/timeline/18.jpg', '/timeline/18.2.jpg'], videos:[{ url:'/timeline/18.mp4'}, { url:'/timeline/18.1.mp4'} ] }, 
+
+
+    // ───────────────────────────── 2025 ─────────────────────────────
+    { date:'Febrero 2025',    title:'San Valentín — el Tercero', 
+      desc:'Ya no había dudas: eras mi elección una y otra vez, en cada momento, en cada versión de la vida. Te amo más de lo que las palabras pueden decir.', 
+      emoji:'💝', side:'right', photo:'/timeline/19.jpg', videos:[ {url:'/timeline/19.mp4'}, {url:'/timeline/19.1.mp4'}] },
+
+    { date:'Marzo 2025',      title:'Viaje a Misahualli 🐵', 
+      desc:'Fue un viaje lleno de aventuras, risas y momentos inolvidables. Entre monos curiosos y paisajes increíbles, ese viaje se convirtió en otro capítulo hermoso de nuestra historia juntos.', 
+      emoji:'🐵', side:'left', photos:['/timeline/20.jpg', '/timeline/20.1.jpg'], video:{ url:'/timeline/20.mp4'}  },
+
+    { date:'Abril 2025',      title:'Tu cumpleaños 🎂', 
+      desc:'Cada año te ves más increíble… y yo más enamorado, más agradecido y más feliz de tenerte en mi vida 💖.', 
+      emoji:'🎂', side:'right', photo:'/timeline/21.jpg', video:{ url:'/timeline/21.mp4'} },
+
+    { date:'Mayo 2025',       title:'Mi cumpleaños 💕', 
+      desc:'Otro año contigo es el mejor regalo que podría pedir.', 
+      emoji:'💖', side:'left', photos:['/timeline/22.jpg', '/timeline/22.1.jpg'] },
+
+    { date:'Julio 2025',      title:'Dos años juntos 🥂 y nuestro viaje a la cascada del amor💕', 
+      desc:'Dos años de historias, de aprendernos, de hacernos hogar. Y un viaje que nos recordó que el amor es nuestra aventura favorita, y que cada día contigo es un regalo que quiero seguir abriendo una y otra vez.', 
+      emoji:'🥂', side:'right', photos:['/timeline/23.jpg', '/timeline/23.1.jpg', '/timeline/23.2.jpg', '/timeline/23.3.jpg'] },
+
+    { date:'Septiembre 2025', title:'Momentos simples y cotidianos en familia que nos unen🌿', 
+      desc:'Los días normales contigo siguen siendo mis favoritos, porque cada momento a tu lado se vuelve especial. Ya no necesito grandes planes para sentir que esto es magia, porque contigo la magia es normal.', 
+      emoji:'🌿', side:'left', photos:['/timeline/24.1.jpg', '/timeline/24.jpg', '/timeline/24.2.jpg']},
+
+    { date:'Noviembre 2025', title:'Muchos días a tu lado y momentos que nos llenan de alegría 💞', 
+      desc:'Cada día contigo es un regalon, no hubo empadanada pero si morocho, aramamos nuestro primer árbol juntos y hubiberon visitas especiales que llenan al corazón de alegria. ', 
+      emoji:'💞', side:'right', photos:['/timeline/25.1.jpg', '/timeline/25.jpg', '/timeline/25.2.jpg'], video:{ url:'/timeline/25.mp4'} },
+
+    { date:'Diciembre 2025',  title:'Nuestra Tercera Navidad 🎄', 
+      desc:'Ya no hay magia… porque contigo la magia es normal, con nuestro primero árbol de navidad juntos, nuestra mascota querida y la sensación de que cada año contigo es mejor que el anterior.', 
+      emoji:'🎄', side:'left',  photos: ['/timeline/26.jpg', '/timeline/26.1.jpg', '/timeline/26.2.jpg'], videos: [{ url: '/timeline/26.mp4' }] },
+
+
+    // ───────────────────────────── 2026 ─────────────────────────────
+    { date:'Enero 2026',  title:'Iniando el año juntos 💞', 
+      desc:'Amor, risas y planes para un año más de aventuras juntos. Cada día contigo es un regalo que quiero seguir abriendo una y otra vez.', 
+      emoji:'💞', side:'right',  photos: ['/timeline/27.jpg', '/timeline/27.1.jpg', '/timeline/27.2.jpg']},
+
+    { date:'Febrero 2026',    title:'San Valentín — el tercero 💘', 
+      desc:'Te elegiría en cada vida, en cada versión del universo. Te amo más de lo que las palabras pueden decir, y cada día contigo es un recordatorio de que el amor verdadero existe y lo encontramos juntos.', 
+      emoji:'💘', side:'left',  photos: ['/timeline/28.jpg', '/timeline/28.1.jpg', '/timeline/28.2.jpg'], videos: [{ url: '/timeline/28.mp4' }]},
+
+    { date:'Abril 2026',      title:'Tu cumpleaños 🎂', 
+      desc:'Otro año celebrándote… y sigo sin acostumbrarme a quererte menos, solo más y más. Eres mi alegría constante, mi inspiración y mi hogar.', 
+      emoji:'🎂', side:'right',  photos: ['/timeline/29.jpg', '/timeline/29.1.jpg', '/timeline/29.2.jpg'], videos: [{ url: '/timeline/29.mp4' }] },
+
+    { date:'Mayo 2026',       title:'Mi cumpleaños 💕', 
+      desc:'El mejor regalo sigue siendo el mismo: tú en mi vida. Cada año contigo es un recordatorio de que el amor verdadero no solo existe, sino que lo vivimos juntos, y cada día es una nueva oportunidad de amarnos más.', 
+      emoji:'💝', side:'left',  photos: ['/timeline/30.jpg', '/timeline/30.1.jpg', '/timeline/30.2.jpg'], videos: [{ url: '/timeline/30.mp4' }] },
+
+    { date:'Julio 2026',      title:'Tres años juntos 💞', 
+      desc:'Tres años después… y todavía siento que apenas empieza lo mejor. Cada día contigo es un capítulo nuevo de nuestra historia, y no puedo esperar a escribir muchos más juntos.', 
+      emoji:'💕', side:'right' },
+  ],
+  // ── MENSAJES SORPRESA ──────────────────────────────────
+  surpriseMessages: [
+    { 
+      title: 'Lo que más admiro de ti', 
+      text: 'Tu manera de nunca darte por vencida, incluso cuando las cosas se complican, en todos los momentos tu siempre estas firme y eres muy valiente, y eso me hace admirarte cada día más, espero que siempre puedas ver lo increíble que eres porque de mis ojos solo se que eres la persona mas maravillosa y con todo mi corazón solo se que soy el más afortunado de tenerte', 
+      emoji: '💪', 
+      photo: '/sorpresa/1.jpg',   // ← foto local o URL
+      video: '/sorpresa/1.mp4'   // ← video local o URL (opcional)
+    },
+    { title:'Mi momento favorito',               
+      text:'Mi momento favorito siempre sera cuando nos conocimos y cuando estamos juntos porque a tu lado siento que todo el mundo se detiene, todos los días son especiales cuando estoy contigo desde un pequeño día sin hacer mucho hasta los días en que nos abrazamos y nos damos mucho amor. Mi momento favorito de cada día es la hora que ya tengo que verte porque cuando no estas te extraño demasiado. ',
+      emoji:'🗺️',
+      photo: '/sorpresa/2.jpg',  
+      video: '/sorpresa/2.mp4'   
+    },
+    { title:'Te prometo...',                     
+      text:'Ser tu cómplice en cada locura. Tu refugio en cada tormenta. Y estar aquí, siempre aquí, prometo cuidarte día a día, tratarte siempre como mi princesa y hacerte sentir amada, porque tú eres mi mundo y mi razón de ser. Te prometo que siempre estaré a tu lado, en cada paso del camino, celebrando tus triunfos y apoyándote en tus desafíos. Eres mi todo, y te amo más de lo que las palabras pueden expresar.',            
+      emoji:'💍', 
+      photo: '/sorpresa/3.jpg',  
+      video: '/sorpresa/3.mp4'
+    },
+    { title:'Eres mi lugar favorito',            
+      text:'Contigo, en cualquier parte del mundo, me siento en casa. Eres mi hogar. Mi vida desde lo mas profundo de mi corazón. Cada momento contigo es un recordatorio de que el verdadero hogar no es un lugar, sino una persona. Y esa persona eres tú, mi amor eterno. Se que pasamos momentos buenos y malos pero siempre estamos juntos y eso es lo que me hace sentirme en casa, porque a pesar de todo siempre tratamos de elegirnos el uno al otro, disculpame si alguna vez no te he hecho sentir lo especial que eres para mi, pero quiero que sepas que eres mi lugar favorito en este mundo y siempre lo seras. Te amo con todo mi corazón y siempre quiero estar a tu lado, porque contigo me siento completo y feliz.',                           
+      emoji:'🏡',
+      photo: '/sorpresa/4.jpg' 
+    },
+  ],
+
+  // ── MASCOTAS ─────────────────────────────────────────────────────────
+  // Se soportan DOS mascotas. Para la que ya falleció agrega deceased:true y passedDate.
+  pets: [
+    {
+      name: 'MILO',
+      emoji: '🐶',
+      breed: 'Perro Salchicha',
+      since: 'Mayo 2026',
+      description: 'Milo llego recientemente a nuestras vidas y es muy tranquilo y juguetón, le encanta dormir y jugar con los gatos. Es un miembro muy querido por nosotros.',
+       // deceased: true,               // ← descomenta si ya falleció
+      // passedDate: 'Enero 2025',     // ← fecha en que partió
+      // memorialText: 'Siempre en nuestros corazones, Luna 🌈',
+      photos: [
+        { src: '/pets/milo/1.jpg', caption: 'El día que llegó 🏠', rotate: '-2deg' },
+        { src: '/pets/milo/2.jpg', caption: 'Una carita asustadita 🫢', rotate: '1.5deg' },
+        { src: '/pets/milo/3.jpg', caption: 'Un Milo chiquito 🐶', rotate: '1.5deg' },
+        { src: '/pets/milo/4.jpg', caption: 'Mucho mimi 😴', rotate: '1.5deg' },
+        { src: '/pets/milo/5.jpg', caption: 'Solo mimi ese par 💤', rotate: '1.5deg' },
+        { src: '/pets/milo/6.jpg', caption: 'Su cara favorita 😍', rotate: '1.5deg' },
+        { src: '/pets/milo/7.jpg', caption: 'Un paseito 🌿', rotate: '1.5deg' },
+        { src: '/pets/milo/8.jpg', caption: 'Mas mimi con la negra 😴', rotate: '1.5deg' },
+        { src: '/pets/milo/9.jpg', caption: 'Parece que no hiciera nada 😮‍💨', rotate: '1.5deg' },
+        { src: '/pets/milo/10.jpg', caption: 'Un besito a ese loco 😘', rotate: '1.5deg' },
+        { src: '/pets/milo/11.jpg', caption: 'Heladitos 🍧', rotate: '1.5deg' },
+      ],
+      videos: [
+        { src: '/pets/milo/1.mp4', title: 'Su tesoro escondido 🏴‍☠️', emoji: '🎬' },
+        { src: '/pets/milo/2.mp4', title: 'Un milo llorón 🥹', emoji: '🎬' },
+        { src: '/pets/milo/3.mp4', title: 'Nadador profesional 🛟', emoji: '🎬' },
+        { src: '/pets/milo/4.mp4', title: 'Un enojado 😠', emoji: '🎬' },
+        
+      ],
+      funFacts: ['Le encanta robar calcetines 🧦', '...'],
+    },
+    {
+      name: 'TEO',
+      emoji: '🐶',
+      breed: 'Perro Salchicha',
+      since: 'Septiembre 2023',
+      deceased: true,
+      passedDate: 'Marzo 2026',
+      memorialText: 'Siempre ladrando en nuestros corazones, TEO 🌈',
+      description: 'Nuestro querido TEO nos dejó un vacío en el corazón, pero su espíritu y amor siempre estarán con nosotros. Fue un compañero leal y lleno de alegría, y siempre lo recordaremos con cariño.Fue un miembro muy querido por nosotros y siempre vivirá en nuestros recuerdos y corazones.',
+      photos: [
+        { src: '/pets/1.jpg', caption: 'Mirando por la ventana 🪟', rotate: '-2deg' },
+        { src: '/pets/2.jpg', caption: 'El día que llego 🏠', rotate: '-2deg' },
+        { src: '/pets/3.jpg', caption: 'Teo Chiquito 🐶', rotate: '-2deg' },
+        { src: '/pets/4.jpg', caption: 'Era bien jugueton ⚽', rotate: '-2deg' },
+        { src: '/pets/5.jpg', caption: 'Saliamos los trecitos 🏞️', rotate: '-2deg' },
+        { src: '/pets/6.jpg', caption: 'Era un dragón 🐉', rotate: '-2deg' },
+        { src: '/pets/7.jpg', caption: 'Sentaditos en el cesped 🌿', rotate: '-2deg' },
+        { src: '/pets/8.jpg', caption: 'Enojado después de bañarse 😡', rotate: '-2deg' },
+        { src: '/pets/9.jpg', caption: 'Lo amabamos mucho ❤️', rotate: '-2deg' },
+        { src: '/pets/10.jpg', caption: 'Mimi con su amiga gata 🐈', rotate: '-2deg' },
+        { src: '/pets/11.jpg', caption: 'Mimi con la niña mas preciosa 😴', rotate: '-2deg' },
+        { src: '/pets/12.jpg', caption: 'Sus patitas 🐾', rotate: '-2deg' },
+        { src: '/pets/13.jpg', caption: 'El estaba en todos nuestros momentos 🌻', rotate: '-2deg' },
+        { src: '/pets/14.jpg', caption: 'Nuestra navidad 🎄', rotate: '-2deg' },
+        { src: '/pets/15.jpg', caption: 'Siempre en nuestros corazones ❤️', rotate: '-2deg' },
+      ],
+      videos: [
+        { src: '/pets/1.mp4', title: 'Muchos besitos de puerco 😘', emoji: '🎬' },
+        { src: '/pets/2.mp4', title: 'Puro mimi 💤', emoji: '🎬' },
+        { src: '/pets/3.mp4', title: 'El también llora cuando te vas 😢', emoji: '🎬' },
+        { src: '/pets/4.mp4', title: 'Patitas locas 🐾', emoji: '🎬' },
+        { src: '/pets/5.mp4', title: 'Un recibimiento muy bonito ❤️', emoji: '🎬' },
+        { src: '/pets/6.mp4', title: 'En la mitad de los dos ❤️', emoji: '🎬' },
+        { src: '/pets/7.mp4', title: 'Se hizo grandote 🐕', emoji: '🎬' },
+        { src: '/pets/8.mp4', title: 'Amaba ir al parque 🏞️', emoji: '🎬' },
+      ],
+      funFacts: ['Adoraba molestra a los cuyes y pollitos 🐔', 'Le encanta salir al parque diciendole "parque parque" o "vamos vamos"🌳', 'Era un puerquito muy feliz y ladron de medias, era malcriadito', 'Le encantaba el pollito y pura golosina'],
+    },
+  ],
+
+  // ── MÚSICA ───────────────────────────────────────────────────────────
+  // ── MÚSICA ─────────────────────────────────────────────
+  musicSrc:    '/music/contigo.mp3',
+  musicTitle:  'Contigo — Carla Morrison',
+  musicArtist: 'Nuestra canción',
+}
