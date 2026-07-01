@@ -375,7 +375,7 @@ timeline: [
         { src: '/pets/milo/4.mp4', title: 'Un enojado 😠', emoji: '🎬' },
         
       ],
-      funFacts: ['Le encanta robar calcetines 🧦', '...'],
+      funFacts: ['Le encanta robar calcetines 🧦', 'Es muy tranquilito 😌', 'Le encanta perseguir a los gatos 🐈', 'Es un poco malcriadito 👿'],
     },
     {
       name: 'TEO',
