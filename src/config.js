@@ -21,6 +21,17 @@ export const config = {
     { src:'/photos/4.jpg', caption:'El atardecer más bonito 🌅', rotate:'2deg' },
     { src:'/photos/5.jpg', caption:'Nuestra mesa favorita 🕯️', rotate:'-1.5deg' },
     { src:'/photos/6.jpg', caption:'Para siempre juntos 💍', rotate:'1deg' },
+    { src:'/photos/7.jpg', caption:'De la manito siempre ❤️', rotate:'-1deg' },
+    { src:'/photos/8.jpg', caption:'Siempre juntitos en cualquier lugar 🥳', rotate:'1.5deg' },
+    { src:'/photos/9.jpg', caption:'Los tresitos juntitos 🐾', rotate:'1.5deg' },
+    { src:'/photos/10.jpg', caption:'Que nunca se acabe el amor 🎄', rotate:'1.5deg' },
+    { src:'/photos/11.jpg', caption:'Viaje a la cascada 🏞️', rotate:'1.5deg' },
+    { src:'/photos/12.jpg', caption:'Que nunca se acabe tu felicidad 🥰', rotate:'1.5deg' },
+    { src:'/photos/14.jpg', caption:'Paseo junto a ti 🌟', rotate:'1.5deg' },
+    { src:'/photos/15.jpg', caption:'Muchas memorias 📸', rotate:'1.5deg' },
+    { src:'/photos/16.jpg', caption:'Siempre seras mi niña chiquita 🥰', rotate:'1.5deg' },
+    { src:'/photos/17.jpg', caption:'La vida es mejor contigo 🌟', rotate:'1.5deg' },
+    { src:'/photos/18.jpg', caption:'Te amare por siempre ❤️', rotate:'1.5deg' },
   ],
 
   album: [
@@ -177,6 +188,11 @@ export const config = {
     {title: 'Nuestros abrazos que llenan el alma', src: '/videos/6.mp4', emoji: '🤗'},
     {title: 'Días especiales juntos', src: '/videos/7.mp4', emoji: '❤️'},
     {title: 'Pequeños momentos que amo', src: '/videos/8.mp4', emoji: '🌸'},
+    {title: 'Recuerdos de todo el amor por ti', src: '/videos/9.mp4', emoji: '❤️'},
+    {title: 'Días que nunca olvido', src: '/videos/10.mp4', emoji: '✨'},
+    {title: 'Para siempre muchos besitos', src: '/videos/11.mp4', emoji: '😘'},
+    {title: 'Siempre mi princesa', src: '/videos/12.mp4', emoji: '😘'},
+    {title: 'Juegos de amor', src: '/videos/13.mp4', emoji: '😘'},
 
   ],
   // ── LÍNEA DE TIEMPO ────────────────────────────────────
@@ -219,7 +235,7 @@ timeline: [
 
     { date:'Diciembre 2023',  title:'Primera Navidad juntos 🎄', 
       desc:'Nuestra primera Navidad juntos y la primera vez sintiendo que esto era hogar.', 
-      emoji:'🎄', side:'right',  photo:'/timeline/9.jpg' },
+      emoji:'🎄', side:'right',  photos:['/timeline/9.jpg', '/timeline/9.1.jpg'] },
 
 
     // ───────────────────────────── 2024 ─────────────────────────────
