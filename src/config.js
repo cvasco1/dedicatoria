@@ -7,7 +7,7 @@ export const config = {
   partnerName: 'Cristian',
 
   // Fecha de inicio de la relación
-  startDate: new Date(2023, 6, 12, 7, 0), // 12 Jul 2023, 7:00 AM
+  startDate: new Date(2023, 6, 12, 0, 0), // 12 Jul 2023, 7:00 AM
 
   heroTagline: 'Desde el primer instante en que te vi,\nsupe que eras mi historia favorita.',
 
