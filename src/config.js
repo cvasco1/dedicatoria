@@ -31,7 +31,7 @@ export const config = {
     { src:'/photos/15.jpg', caption:'Muchas memorias 📸', rotate:'1.5deg' },
     { src:'/photos/16.jpg', caption:'Siempre seras mi niña chiquita 🥰', rotate:'1.5deg' },
     { src:'/photos/17.jpg', caption:'La vida es mejor contigo 🌟', rotate:'1.5deg' },
-    { src:'/photos/18.jpg', caption:'Te amare por siempre ❤️', rotate:'1.5deg' },
+    { src:'/photos/18.jpg', caption:'Te amaré por siempre ❤️', rotate:'1.5deg' },
   ],
 
   album: [
@@ -302,7 +302,7 @@ timeline: [
       emoji:'🌿', side:'left', photos:['/timeline/24.1.jpg', '/timeline/24.jpg', '/timeline/24.2.jpg']},
 
     { date:'Noviembre 2025', title:'Muchos días a tu lado y momentos que nos llenan de alegría 💞', 
-      desc:'Cada día contigo es un regalon, no hubo empadanada pero si morocho, aramamos nuestro primer árbol juntos y hubiberon visitas especiales que llenan al corazón de alegria. ', 
+      desc:'Cada día contigo es un regalo, no hubo colada morada pero si morocho, armamos nuestro primer árbol juntos y hubieron visitas especiales que llenan al corazón de alegría. ', 
       emoji:'💞', side:'right', photos:['/timeline/25.1.jpg', '/timeline/25.jpg', '/timeline/25.2.jpg'], video:{ url:'/timeline/25.mp4'} },
 
     { date:'Diciembre 2025',  title:'Nuestra Tercera Navidad 🎄', 
@@ -311,7 +311,7 @@ timeline: [
 
 
     // ───────────────────────────── 2026 ─────────────────────────────
-    { date:'Enero 2026',  title:'Iniando el año juntos 💞', 
+    { date:'Enero 2026',  title:'Iniciando el año juntos 💞', 
       desc:'Amor, risas y planes para un año más de aventuras juntos. Cada día contigo es un regalo que quiero seguir abriendo una y otra vez.', 
       emoji:'💞', side:'right',  photos: ['/timeline/27.jpg', '/timeline/27.1.jpg', '/timeline/27.2.jpg']},
 
@@ -320,7 +320,7 @@ timeline: [
       emoji:'💘', side:'left',  photos: ['/timeline/28.jpg', '/timeline/28.1.jpg', '/timeline/28.2.jpg'], videos: [{ url: '/timeline/28.mp4' }]},
 
     { date:'Abril 2026',      title:'Tu cumpleaños 🎂', 
-      desc:'Otro año celebrándote… y sigo sin acostumbrarme a quererte menos, solo más y más. Eres mi alegría constante, mi inspiración y mi hogar.', 
+      desc:'Otro año celebrando el cumpleaños de la persona que amo… y sigo sin acostumbrarme a quererte menos, solo más y más. Eres mi alegría constante, mi inspiración y mi hogar.', 
       emoji:'🎂', side:'right',  photos: ['/timeline/29.jpg', '/timeline/29.1.jpg', '/timeline/29.2.jpg'], videos: [{ url: '/timeline/29.mp4' }] },
 
     { date:'Mayo 2026',       title:'Mi cumpleaños 💕', 
@@ -353,7 +353,7 @@ timeline: [
       video: '/sorpresa/3.mp4'
     },
     { title:'Eres mi lugar favorito',            
-      text:'Contigo, en cualquier parte del mundo, me siento en casa. Eres mi hogar. Mi vida desde lo mas profundo de mi corazón. Cada momento contigo es un recordatorio de que el verdadero hogar no es un lugar, sino una persona. Y esa persona eres tú, mi amor eterno. Se que pasamos momentos buenos y malos pero siempre estamos juntos y eso es lo que me hace sentirme en casa, porque a pesar de todo siempre tratamos de elegirnos el uno al otro, disculpame si alguna vez no te he hecho sentir lo especial que eres para mi, pero quiero que sepas que eres mi lugar favorito en este mundo y siempre lo seras. Te amo con todo mi corazón y siempre quiero estar a tu lado, porque contigo me siento completo y feliz.',                           
+      text:'Contigo, en cualquier parte del mundo, me siento en casa. Eres mi hogar. Mi vida desde lo mas profundo de mi corazón. Cada momento contigo es un recordatorio de que el verdadero hogar no es un lugar, sino una persona. Y esa persona eres tú, mi amor eterno. Se que pasamos momentos buenos y malos pero siempre estamos juntos y eso es lo que me hace sentirme en casa, porque a pesar de todo siempre tratamos de elegirnos el uno al otro, discúlpame si alguna vez no te he hecho sentir lo especial que eres para mi, pero quiero que sepas que eres mi lugar favorito en este mundo y siempre lo seras. Te amo con todo mi corazón y siempre quiero estar a tu lado, porque contigo me siento completo y feliz.',                           
       emoji:'🏡',
       photo: '/sorpresa/4.jpg' 
     },
@@ -406,12 +406,12 @@ timeline: [
         { src: '/pets/1.jpg', caption: 'Mirando por la ventana 🪟', rotate: '-2deg' },
         { src: '/pets/2.jpg', caption: 'El día que llego 🏠', rotate: '-2deg' },
         { src: '/pets/3.jpg', caption: 'Teo Chiquito 🐶', rotate: '-2deg' },
-        { src: '/pets/4.jpg', caption: 'Era bien jugueton ⚽', rotate: '-2deg' },
-        { src: '/pets/5.jpg', caption: 'Saliamos los trecitos 🏞️', rotate: '-2deg' },
+        { src: '/pets/4.jpg', caption: 'Era bien juguetón ⚽', rotate: '-2deg' },
+        { src: '/pets/5.jpg', caption: 'Salíamos los trecitos 🏞️', rotate: '-2deg' },
         { src: '/pets/6.jpg', caption: 'Era un dragón 🐉', rotate: '-2deg' },
         { src: '/pets/7.jpg', caption: 'Sentaditos en el cesped 🌿', rotate: '-2deg' },
         { src: '/pets/8.jpg', caption: 'Enojado después de bañarse 😡', rotate: '-2deg' },
-        { src: '/pets/9.jpg', caption: 'Lo amabamos mucho ❤️', rotate: '-2deg' },
+        { src: '/pets/9.jpg', caption: 'Lo amábamos mucho ❤️', rotate: '-2deg' },
         { src: '/pets/10.jpg', caption: 'Mimi con su amiga gata 🐈', rotate: '-2deg' },
         { src: '/pets/11.jpg', caption: 'Mimi con la niña mas preciosa 😴', rotate: '-2deg' },
         { src: '/pets/12.jpg', caption: 'Sus patitas 🐾', rotate: '-2deg' },
@@ -429,7 +429,7 @@ timeline: [
         { src: '/pets/7.mp4', title: 'Se hizo grandote 🐕', emoji: '🎬' },
         { src: '/pets/8.mp4', title: 'Amaba ir al parque 🏞️', emoji: '🎬' },
       ],
-      funFacts: ['Adoraba molestra a los cuyes y pollitos 🐔', 'Le encanta salir al parque diciendole "parque parque" o "vamos vamos"🌳', 'Era un puerquito muy feliz y ladron de medias, era malcriadito', 'Le encantaba el pollito y pura golosina'],
+      funFacts: ['Adoraba molestar a los cuyes y pollitos 🐔', 'Le encanta salir al parque diciéndole "parque parque" o "vamos vamos"🌳', 'Era un puerquito muy feliz y ladron de medias, era malcriadito', 'Le encantaba el pollito y pura golosina'],
     },
   ],
 
